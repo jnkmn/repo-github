@@ -14,8 +14,7 @@ enum Transmission {
 }
 
 enum WindowState {
-    case close, open
-}
+    case close, openfhtdutns }
 
 enum EngineState {
     case on, off
