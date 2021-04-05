@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         // Проверяем, верны ли они
         if login == "admin" && password == "123456" { print("успешная авторизация")
         } else {
-        print("неуспешная авторизация")
+        print("неуспешная   авторизация")
         }
     }
     @IBOutlet weak var scrollView: UIScrollView!
