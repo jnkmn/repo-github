@@ -13,6 +13,8 @@
 		D25E3CE82619003100ECC4B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25E3CE62619003100ECC4B3 /* Main.storyboard */; };
 		D25E3CEA2619003300ECC4B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25E3CE92619003300ECC4B3 /* Assets.xcassets */; };
 		D25E3CED2619003300ECC4B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25E3CEB2619003300ECC4B3 /* LaunchScreen.storyboard */; };
+		D2823B41261E6BE7004553B8 /* SomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2823B40261E6BE7004553B8 /* SomePage.swift */; };
+		D2823B44261F4D91004553B8 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2823B43261F4D91004553B8 /* TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D25E3CE92619003300ECC4B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D25E3CEC2619003300ECC4B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D25E3CEE2619003300ECC4B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2823B40261E6BE7004553B8 /* SomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomePage.swift; sourceTree = "<group>"; };
+		D2823B43261F4D91004553B8 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		D25E3CD42619003100ECC4B3 = {
 			isa = PBXGroup;
 			children = (
+				D2823B43261F4D91004553B8 /* TableView.swift */,
+				D2823B40261E6BE7004553B8 /* SomePage.swift */,
 				D25E3CDF2619003100ECC4B3 /* Vk_app */,
 				D25E3CDE2619003100ECC4B3 /* Products */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D25E3CE52619003100ECC4B3 /* ViewController.swift in Sources */,
+				D2823B44261F4D91004553B8 /* TableView.swift in Sources */,
 				D25E3CE12619003100ECC4B3 /* AppDelegate.swift in Sources */,
+				D2823B41261E6BE7004553B8 /* SomePage.swift in Sources */,
 				D25E3CE32619003100ECC4B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
